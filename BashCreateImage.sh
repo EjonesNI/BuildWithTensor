@@ -24,6 +24,7 @@ git clone git://git.yoctoproject.org/meta-tensorflow.git
 git clone https://github.com/EjonesNI/BuildWithTensor.git
 rm -f meta-ettus/contrib/setup_build_env.sh
 mv BuildWithTensor/setup_build_env.sh meta-ettus/contrib/setup_build_env.sh
+mv ./openembedded-core ./oe-core
 
 mkdir sdk
 cd sdk
