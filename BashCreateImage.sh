@@ -49,6 +49,7 @@ dnf install -y \
     tar \
     tmux \
     xz \
+    uhd \
     && \
     dnf clean all
 	
