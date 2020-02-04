@@ -16,7 +16,7 @@ git clone git://github.com/EttusResearch/meta-ettus.git
 git clone git://github.com/mendersoftware/meta-mender.git
 git clone git://github.com/openembedded/meta-openembedded.git
 git clone git://git.yoctoproject.org/meta-security.git
-git clone git://github.com/openembedded/openembedded-core.git
+git clone -b warrior git://github.com/openembedded/openembedded-core.git
 git clone git://git.yoctoproject.org/meta-qt4.git
 git clone git://github.com/EttusResearch/meta-sdr.git
 git clone git://git.yoctoproject.org/meta-tensorflow.git
