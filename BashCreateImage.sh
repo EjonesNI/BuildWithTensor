@@ -25,18 +25,18 @@ git clone https://github.com/EjonesNI/BuildWithTensor.git
 rm -f meta-ettus/contrib/setup_build_env.sh
 mv BuildWithTensor/setup_build_env.sh meta-ettus/contrib/setup_build_env.sh
 mv ./openembedded-core ./oe-core
+dos2unix meta-ettus/contrib/setup_build_env.sh
 
 mkdir sdk
 cd sdk
 wget http://files.ettus.com/e3xx_images/e3xx-release-4/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 chmod +x oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 ./oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
-./
 ls
 source /usr/local/oecore-x86_64/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
 echo $CC
 
-cd ../
+cd $HOME
 chmod +x meta-ettus/contrib/setup_build_env.sh
 ./meta-ettus/contrib/setup_build_env.sh e310_sg3
 
