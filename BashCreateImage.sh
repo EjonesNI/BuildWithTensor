@@ -32,6 +32,8 @@ cd sdk
 wget http://files.ettus.com/e3xx_images/e3xx-release-4/oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 chmod +x oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 ./oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
+/usr/local/oecore-x86_64
+y
 ls
 source /usr/local/oecore-x86_64/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
 echo $CC
