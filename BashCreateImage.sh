@@ -11,7 +11,8 @@ mv repo /usr/local/bin
 
 cd $HOME
 
-git clone git://github.com/openembedded/bitbake.git
+git clone -n git://github.com/openembedded/bitbake.git
+git checkout 79e62eef1c93f742bf71e9f25db57fdd2ffedd02
 git clone git://github.com/EttusResearch/meta-ettus.git
 git clone git://github.com/mendersoftware/meta-mender.git
 git clone git://github.com/openembedded/meta-openembedded.git
