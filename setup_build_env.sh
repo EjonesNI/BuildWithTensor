@@ -141,7 +141,7 @@ case $_requested_device in
 		  /meta-ettus/meta-e31x \
 		  /meta-ettus/meta-mender-e31x \
 		  /meta-sdr \
-      /meta-tensorflow \
+		  /meta-tensorflow \
 		  /meta-qt4"
 		_remove_layers="\
 		  /meta-ettus/meta-mender-sulfur \
