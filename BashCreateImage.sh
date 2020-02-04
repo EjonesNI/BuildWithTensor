@@ -32,7 +32,7 @@ chmod +x oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 ./oecore-x86_64-armv7ahf-vfp-neon-toolchain-nodistro.0.sh
 ./
 ls
-source ./environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
+source /usr/local/oecore-x86_64/environment-setup-armv7ahf-vfp-neon-oe-linux-gnueabi
 echo $CC
 
 cd ../
