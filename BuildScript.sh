@@ -33,4 +33,4 @@ chmod +x meta-ettus/contrib/setup_build_env.sh
 touch build/conf/sanity.conf
 git clone git://github.com/EjonesNI/meta-tensorflow.git -b EjonesNI-patch-1
 
-./meta-ettus/contrib/build_imgs_package.sh e310_sg3 e310_sg3
+#./meta-ettus/contrib/build_imgs_package.sh e310_sg3 e310_sg3
