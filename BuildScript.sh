@@ -22,6 +22,7 @@ dnf install -y unzip
 wget https://github.com/EttusResearch/meta-ettus/archive/thud.zip
 
 unzip thud.zip -d /root/
+git clone git://github.com/EjonesNI/meta-tensorflow.git -b EjonesNI-patch-1
 mv meta-ettus-thud meta-ettus
 chmod +x ./meta-ettus/contrib/build_imgs_package.sh
 dos2unix setup_build_env.sh
@@ -31,6 +32,5 @@ chmod +x meta-ettus/contrib/setup_build_env.sh
 ./meta-ettus/contrib/setup_build_env.sh e310_sg3 e310_sg3
 
 touch build/conf/sanity.conf
-git clone git://github.com/EjonesNI/meta-tensorflow.git -b EjonesNI-patch-1
 
 #./meta-ettus/contrib/build_imgs_package.sh e310_sg3 e310_sg3
