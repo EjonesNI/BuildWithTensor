@@ -8,7 +8,7 @@ git config --system user.name "Ettus OE Builder" && git config --system user.ema
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 
-dnf install -y asciidoc gettext-devel tar autoconf xmlto
+dnf install -y asciidoc gettext-devel tar autoconf xmlto python36
 wget https://github.com/git/git/archive/v2.25.0.tar.gz
 
 tar -zxf v2.25.0.tar.gz
