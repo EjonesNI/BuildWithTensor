@@ -9,6 +9,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 
 dnf install -y asciidoc gettext-devel tar autoconf xmlto python36
+yum install -y docbook2X
 wget https://github.com/git/git/archive/v2.25.0.tar.gz
 
 tar -zxf v2.25.0.tar.gz
