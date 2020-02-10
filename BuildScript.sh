@@ -8,6 +8,16 @@ git config --system user.name "Ettus OE Builder" && git config --system user.ema
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 
+dnf install -y asciidoc gettext-devel tar autoconf xmlto
+wget https://github.com/git/git/archive/v2.25.0.tar.gz
+
+tar -zxf v2.25.0.tar.gz
+cd v2.25.0
+make configure
+./configure --prefix=/usr
+make all doc info
+make install install-doc install-html install-info
+
 mv setup_build_env.sh /root
 dnf install -y wget
 cd $HOME
