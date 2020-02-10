@@ -40,8 +40,8 @@ dos2unix setup_build_env.sh
 mv setup_build_env.sh meta-ettus/contrib/setup_build_env.sh
 chmod +x meta-ettus/contrib/setup_build_env.sh
 
-./meta-ettus/contrib/setup_build_env.sh e310_sg3 e310_sg3
+./meta-ettus/contrib/setup_build_env.sh e310_sg3
 
 touch build/conf/sanity.conf
 
-#./meta-ettus/contrib/build_imgs_package.sh e310_sg3 e310_sg3
+./meta-ettus/contrib/build_imgs_package.sh e310_sg3
