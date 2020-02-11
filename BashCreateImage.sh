@@ -60,9 +60,9 @@ git checkout 79e62eef1c93f742bf71e9f25db57fdd2ffedd02
 cd ../
 
 chmod +x meta-ettus/contrib/setup_build_env.sh
-./meta-ettus/contrib/setup_build_env.sh e310_sg3 v1.0.0.0
+#./meta-ettus/contrib/setup_build_env.sh e310_sg3 v1.0.0.0
 
-touch build/conf/sanity.conf
+#touch build/conf/sanity.conf
 
 chmod +x meta-ettus/contrib/build_imgs_package.sh
-./meta-ettus/contrib/build_imgs_package.sh e310_sg3 v1.0.0.0
+#./meta-ettus/contrib/build_imgs_package.sh e310_sg3 v1.0.0.0
